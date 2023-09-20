@@ -9,7 +9,7 @@
 
 ## Api Documentation
 
-<a href="https://documenter.getpostman.com/view/15204749/2s9YCARAgf">Link</a>
+<a href="https://documenter.getpostman.com/view/15204749/2s9YCARAgf">PostMan Documentation Link</a>
 
 
 Registration:
