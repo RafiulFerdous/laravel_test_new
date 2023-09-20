@@ -9,6 +9,9 @@
 
 ## Api Documentation
 
+<a href="https://documenter.getpostman.com/view/15204749/2s9YCARAgf">Link</a>
+
+
 Registration:
 
 first update role table 
