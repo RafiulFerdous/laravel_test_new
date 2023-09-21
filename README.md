@@ -34,12 +34,12 @@ curl --location 'http://127.0.0.1:8000/api/login' \
 --form 'password="12345678"'
 
 <p>This System is designed in Repository Pattern.
-Having table 
-=>brand
-=>category
-=>Department
-=>Invoices
-=>products
+Having table </br>
+=>brand </br>
+=>category </br>
+=>Department </br>
+=>Invoices </br>
+=>products </br>
     =>id
     =>name
     =>sku
@@ -49,9 +49,9 @@ Having table
     =>challan_um
     =>quantity
     =>description
-    =>invoice_id
-=>role
-=>users
+    =>invoice_id </br>
+=>role </br>
+=>users </br>
 </p>
 
 
