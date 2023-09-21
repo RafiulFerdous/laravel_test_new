@@ -14,9 +14,10 @@
 
 Registration:
 
-first update role table 
+first migrate the data base
+used Token based- sanctum for Role based authentication system 
 
-role based
+
 default role 1
 
 curl --location 'http://127.0.0.1:8000/api/registration' \
@@ -25,5 +26,33 @@ curl --location 'http://127.0.0.1:8000/api/registration' \
 --form 'email="test3@gmail.com"' \
 --form 'password="12345678"' \
 --form 'password_confirmation="12345678"'
+
+Login:
+curl --location 'http://127.0.0.1:8000/api/login' \
+--header 'Accept: application/json' \
+--form 'email="test@gmail.com"' \
+--form 'password="12345678"'
+
+This System is designed in Repository Pattern.
+Having table 
+=>brand
+=>category
+=>Department
+=>Invoices
+=>products
+    =>id
+    =>name
+    =>sku
+    =>brand_id
+    =>category_id
+    =>department_id
+    =>challan_um
+    =>quantity
+    =>description
+    =>invoice_id
+=>role
+=>users
+
+
 
 
