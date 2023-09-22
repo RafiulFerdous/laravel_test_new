@@ -14,7 +14,7 @@
 
 Registration:
 
-first migrate the data base
+first migrate the data base and insert role table admin with id 1 manually.
 used Token based- sanctum for Role based authentication system 
 
 
